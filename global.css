@@ -16,7 +16,8 @@ body {
   background: url("/img/diamond.png") repeat;
 }
 
-.oldE {
+.oldE,
+.btn {
   font-family: amador, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -32,6 +33,14 @@ body {
     display: grid;
     gap: 92px 32px;
     grid-template-columns: repeat(auto-fill, minmax(590px, 1fr));
+  }
+}
+
+@media (min-width: 768px) {
+  .release-grid {
+    display: grid;
+    gap: 48px 24px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 }
 
