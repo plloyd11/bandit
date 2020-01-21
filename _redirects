@@ -2,3 +2,4 @@
 
 # Redirect default Netlify subdomain to primary domain
 https://bandit.netlify.com/* https://banditgrindcore.com/:splat 301!
+http://banditgrindcore.com/* https://banditgrindcore.com/:splat 301!
